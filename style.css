@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+.main_container {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+}
+
+.navbar {
+    top: 0;
+    background-color: rgb(137, 130, 130);
+    opacity: 0.7;
+    display: flex;
+    position: fixed;
+
+    /* flex: 1fr 1fr 1fr; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+    flex-direction: row;
+    height: 60px;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.navlogo {
+    margin: 1rem;
+    background-color: transparent;
+
+    text-align: center;
+    align-items: center;
+    justify-content: baseline;
+    padding: 0 1rem 0 1rem;
+
+
+}
+
+
+.navopt {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    padding-left: 40%;
+
+    flex: auto;
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+#menubtn {
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    margin: 1rem;
+
+}
+
+.navmenu {
+    display: inline-flex;
+    background-color: transparent;
+    flex: 1;
+    padding: 0 1rem 0 1rem;
+    flex: auto;
+
+
+}
+
+i {
+    font-size: xx-large;
+}
+main {
+    margin-left: 1rem;
+    
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    box-shadow: 0px 0px 3px white;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 90%;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+   
+}
+
+#img1{
+    background-image: url(wallpaper1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img2{
+    background-image: url(wallpaper5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img3{
+    background-image: url(wallpaper2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#img4{
+    background-image: url(wallpaper3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+#mnbtn1 {
+    font-size: 15px;
+    padding: 5px;
+    top: 48%;
+    left: 2%;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 90;
+    color: rgb(97, 91, 91);
+}
+#mnbtn2 {
+    font-size: 15px;
+    padding: 5px;
+    top: 48%;
+    right: 2%;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    z-index: 90;
+    color:  rgb(97, 91, 91);
+}
+.switchs{
+    
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    
+    background-color: wheat;
+    box-shadow: 0px 0px 3px white;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10px;
+
+}
+
+.product{
+    position: relative;
+    margin: 2%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.bgimg {
+    margin: 2%;
+
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    height: 100%;
+    width: calc(100% /3);
+    transition: 1s;
+    position: absolute;
+   
+}
+#sl1{
+    background-image: url(sl1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+#sl2{
+    background-image: url(sl2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl3{
+    background-image: url(sl3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl4{
+    background-image: url(sl4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl5{
+    background-image: url(sl5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl6{
+    background-image: url(sl1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+#sl7{
+    background-image: url(sl2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl8{
+    background-image: url(sl3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl9{
+    background-image: url(sl4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sl10{
+    background-image: url(sl5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#p{
+    font-size: 15px;
+    padding: 5px;
+    bottom: -17%;
+    left: 2%;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 90;
+    color: rgb(97, 91, 91);
+}
+#n{
+    font-size: 15px;
+    padding: 5px;
+    bottom: -17%;
+    right: 2%;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    z-index: 90;
+    color: rgb(97, 91, 91);
+}
+.product-btn-details{
+    border: black;
+    
+    
+}
+
+#prd-btn-rng{
+    right: 0px;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    margin-top: 15px;
+    border: 2px solid black;
+    padding: 0.5rem;
+    background-color: burlywood;
+    position: absolute;
+}
+.info-img{
+    border: 2px solid brown;
+    height: 400px;
+    margin: 5%;
+    width: 90%;
+    position: relative;
+   
+}
+#prd-btn-feat{
+    margin-top: -3%;
+    border: 2px solid black;
+    padding: 0.5rem;
+    position: absolute;
+    right: 0px;
+    background-color: burlywood;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    /* left: 80%; */
+    
+}
+/* .box2{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+} */
+.prod-story{
+    margin: 2%;
+    text-align: justify;
+    background-color: rgb(129, 103, 73);
+    border: grey;
+    display: flex;
+    height: 350px;
+    width: 95%;
+}
+#prd-btn-stry{
+    margin-top: 1%;
+    border: 2px solid black;
+    padding: 0.5rem;
+    position: absolute;
+    right: 0px;
+    background-color: burlywood;
+    font-weight: 400;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+    /* left: 80%; */
+    
+}
+.footer{
+    margin: 2%;
+    margin-top:8%;
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+p{
+    margin: 5%;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    line-height: 1.5rem;
+    font-weight: 600;
+    position: absolute;
+}
+#footertext{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
